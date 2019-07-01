@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "253526711424",
+    "firebase_url": "https://firestore-login-b80d4.firebaseio.com",
+    "project_id": "firestore-login-b80d4",
+    "storage_bucket": "firestore-login-b80d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253526711424:android:651d3dbf4d37ec9f",
+        "android_client_info": {
+          "package_name": "com.example.firestore_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253526711424-tvopg0tevrkde0e1l8ko2tbgtnhcdsrf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firestore_login",
+            "certificate_hash": "f6835ae95f193952b4a698fd1b6c12708163a56d"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzgKEG14ggJ96OiZQwLhjtyoHTLkTqFS8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253526711424-ulv5ivghobkk4od3cfsjlp6gugmhn6rh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
