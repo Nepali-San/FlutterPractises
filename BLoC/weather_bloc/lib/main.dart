@@ -44,6 +44,8 @@ class WeatherPage extends StatelessWidget {
               return buildLoading();
             } else if (state is WeatherLoaded) {
               return buildColumnWithData(state.weather);
+            }else{
+              return Container();
             }
           },
         ),
