@@ -33,6 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
             children: <Widget>[
               background(),
               Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   searchField(),
                   SizedBox(height: 15.0),
@@ -162,7 +163,7 @@ class _MyHomePageState extends State<MyHomePage> {
           SizedBox(width: 10.0),
           _foodCard(),
           SizedBox(width: 10.0),
-          _foodCard(),          
+          _foodCard(),
         ],
       ),
     );
@@ -183,23 +184,19 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
         ),
-        child: Row(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                Text('POPULAR RECIPES',
-                    style: TextStyle(
-                        fontSize: 20.0,
-                        fontFamily: 'Timesroman',
-                        fontWeight: FontWeight.bold)),
-                Text('THIS WEEK',
-                    style: TextStyle(
-                        fontSize: 20.0,
-                        fontFamily: 'Timesroman',
-                        fontWeight: FontWeight.bold)),
-              ],
-            )
+            Text('POPULAR RECIPES',
+                style: TextStyle(
+                    fontSize: 20.0,
+                    fontFamily: 'Timesroman',
+                    fontWeight: FontWeight.bold)),
+            Text('THIS WEEK',
+                style: TextStyle(
+                    fontSize: 20.0,
+                    fontFamily: 'Timesroman',
+                    fontWeight: FontWeight.bold)),
           ],
         ),
       ),
