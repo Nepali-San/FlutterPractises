@@ -8,3 +8,7 @@ enum CounterEvent {
   IncrementEvent,
   DecrementEvent,
 }
+
+
+// * normally bloc pattern uses abstract classes but for simple events we may use 
+// * enums

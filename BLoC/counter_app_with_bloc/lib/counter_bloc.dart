@@ -3,6 +3,8 @@ import 'dart:async';
 import 'package:counter_app_with_bloc/counter_event.dart';
 
 class CounterBloc {
+
+  // * normally we store state variables in a seprate file counter_state.dart
   int _counter = 0;
 
   final _counterStateController = StreamController<int>();
