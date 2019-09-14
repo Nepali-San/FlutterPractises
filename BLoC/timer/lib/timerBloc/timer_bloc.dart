@@ -6,7 +6,7 @@ import 'package:timer/timerBloc/timer.dart';
 
 class TimerBloc extends Bloc<TimerEvent, TimerState> {
   final Ticker _ticker;
-  final int _duration = 60;
+  final int _duration = 70;
 
   StreamSubscription<int> _tickerSubscription;
 
