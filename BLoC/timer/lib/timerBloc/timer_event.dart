@@ -20,6 +20,8 @@ class Pause extends TimerEvent {
   String toString() => "Pause";
 }
 
+// * Resume event can be removed, instead we may reuse Start event
+// * to resume the timer.
 class Resume extends TimerEvent {
   @override
   String toString() => "Resume";
