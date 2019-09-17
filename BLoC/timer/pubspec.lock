@@ -14,7 +14,7 @@ packages:
       name: bloc
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.14.2"
+    version: "0.15.0"
   boolean_selector:
     dependency: transitive
     description:
@@ -49,7 +49,7 @@ packages:
       name: equatable
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.6"
+    version: "0.5.1"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -61,7 +61,7 @@ packages:
       name: flutter_bloc
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.17.0"
+    version: "0.21.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -95,6 +95,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0+1"
+  provider:
+    dependency: transitive
+    description:
+      name: provider
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.1.0"
   quiver:
     dependency: transitive
     description:
@@ -170,12 +177,5 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.8"
-  wave:
-    dependency: "direct main"
-    description:
-      name: wave
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.0.8"
 sdks:
   dart: ">=2.2.2 <3.0.0"
